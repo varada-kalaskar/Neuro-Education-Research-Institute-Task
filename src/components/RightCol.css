@@ -1,0 +1,25 @@
+
+  .profile{
+    height: 16vh;
+    width:8vw;
+    border-radius: 8vh;
+    margin-top: 16vh ;
+    margin-bottom: 1vh;
+  }
+  .classinfo{
+      list-style-type: none;
+      padding: 0;
+  }
+  .classcard{
+      background-color: palevioletred;
+      color: white;
+      width:20vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5vh;
+      border-radius: 2vh;
+  }
+  .classinfolist{
+     text-align: left;
+     margin-bottom: 1.1vh;
+  }

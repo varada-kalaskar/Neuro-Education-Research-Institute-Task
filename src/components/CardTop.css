@@ -1,0 +1,18 @@
+.cardtopstyle{
+   border-radius: 4vh;
+   height: 16vh;
+   background: #ffffff;
+   box-shadow: inset 5px 5px 4px #cccccc,
+               inset -5px -5px 4px #ffffff;
+    
+}
+
+.cardtopstyleactive{
+    border-radius: 4vh;
+    height: 16vh;
+    color: white;
+    border: none;
+    background: #87ceeb;
+    box-shadow:  5px 5px 4px #6ca5bc,
+         -5px -5px 4px rgb(235, 239, 243);  
+ }

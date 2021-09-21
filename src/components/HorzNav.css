@@ -1,0 +1,71 @@
+
+
+  .horz {
+    list-style-type: none;
+    width: 15vw;
+    background-color: #f1f1f1;
+    border-radius: 2.5vh;
+    background-color: skyblue;
+    margin-left: 1vw;
+  }
+  
+  .hitemactive a{
+    display: block;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-decoration: none;
+    background-color: rgb(235, 239, 243);
+    color: skyblue;
+    text-decoration: none;
+    border-radius: 2vh 0vh 0vh 2vh;
+    border-left: rgb(235, 239, 243);
+  }
+  
+  .hitem a {
+    display: block;
+    color: #fff;
+    background-color: skyblue;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .hitem a:hover {
+    background-color: rgb(235, 239, 243);
+    color: skyblue;
+    text-decoration: none;
+    border-radius: 2vh;
+    border-left: rgb(235, 239, 243);
+  }
+
+  .headingitem{
+    display: block;
+    color: #fff;
+    background-color: skyblue;
+    padding: 5vh 0vh;
+    text-decoration: none;
+    text-align: center;
+
+  }
+  .logout a{
+    background-color: rgb(51, 156, 197);
+    display: block;
+    color: #fff;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-decoration: none;
+    border-radius: 3vh;
+  }
+    
+  
+  @media (min-width: 1920px) and (max-width: 2560px)  {
+      .horz{
+        width:14vw;
+       
+      }
+  }
+ 
+ 
+  
+  

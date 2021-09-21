@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import HorzNav from './components/HorzNav';
+import { Button, Card, Col, Row } from 'react-bootstrap';
+import RightCol from './components/RightCol';
+import CardTop from './components/CardTop';
+import FinalPage from './components/FinalPage';
+import LineChart from './components/LineChart';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FinalPage/>
     </div>
   );
 }

@@ -1,0 +1,63 @@
+.chartbutton{
+    margin: 1vh;
+    border-radius: 3vh;
+    border:none;
+    color: grey;
+    outline: none;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 4px #cccccc,
+            inset -5px -5px 4px #ffffff;
+}
+.chartbuttonactive{
+    margin: 1vh;
+    border-radius: 3vh;
+    border:none;
+    color: white;
+    outline: none;
+    background: #87ceeb;
+    box-shadow:  5px 5px 4px #6ca5bc,
+             -5px -5px 4px #ffffff;
+}
+.chartbutton:hover{
+    background: #ffffff;
+    color: grey;
+    box-shadow: inset 5px 5px 4px #cccccc,
+        inset -5px -5px 4px #ffffff;
+}
+.chartbuttonactive:hover{
+    background: skyblue;
+}
+
+.week{
+    margin-left: 5vw;
+    border: 0.3vh solid palevioletred;
+    border-radius: 2.5vh;
+    padding: 0.5vh 2.5vw;
+    height: 5.3vh;
+    font-size: 2.5vh;
+}
+
+.classcolumn{
+    background-color: rgb(230, 233, 236);
+    border-radius: 3vh;
+  }
+
+  .cardmid{
+      height: 28vh;
+      border-radius: 3vh;
+      background-color: skyblue;
+      border: 0px;
+  }
+
+  .withdraw{
+      height: 5vh;
+      margin: 0vh;
+      font-size: 2vh;
+  }
+
+  .cardmidhead{
+      height: 7vh;
+      color: white;
+      border-radius: 5vh;
+      
+  }

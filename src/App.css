@@ -1,10 +1,9 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 3vh;
+  margin-top: 1vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
